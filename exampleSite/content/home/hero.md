@@ -2,20 +2,19 @@
 # Hero widget.
 widget = "hero"  # Do not modify this line!
 active = true  # Activate this widget? true/false
+weight = 10  # Order that this section will appear.
 
 title = "Academic"
-
-# Order that this section will appear in.
-weight = 3
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "hero-academic.png"
 
-# Background (optional).
-#   Choose from a background color, gradient, or image.
-#   Choose a dark or light text color, by setting `text_color_light`.
-#   Delete or comment out (by prefixing `#`) any unused options.
-[background]
+[design.background]
+  # Apply a background color, gradient, or image.
+  #   Uncomment (by removing `#`) an option to apply it.
+  #   Choose a light or dark text color by setting `text_color_light`.
+  #   Any HTML color name or Hex value is valid.
+
   # Background color.
   # color = "navy"
   
@@ -34,7 +33,7 @@ hero_media = "hero-academic.png"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "post/getting-started/"
+  url = "https://sourcethemes.com/academic/docs/install/"
   label = "Get Started"
   icon_pack = "fas"
   icon = "download"
